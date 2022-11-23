@@ -121,7 +121,7 @@
 
                 <ul class="card">
                     <li><img class="card__image" src="images/consolas (4).svg" alt="Imagen producto"></li>
-                    <li class="card__name">Control  XYZ</li>
+                    <li class="card__name">Control XYZ</li>
                     <li class="card__price">$60,00</li>
                     <li><a class="card__view" href="s">Ver Producto</a></li>
                 </ul>
@@ -201,13 +201,33 @@
         <!-- SECCIÓN FOOTER -->
         <section class="footer">
             <div class="footer_container">
+                <div class="footer__left">
+                    <div class="footer__image">
+                        <a href="index.html"><img src="images/Logo.svg" alt="Logo tienda"></a>
+                    </div>
+                    <ul class="contact__nav">
+                        <li><a class="contact__item" href="#">Quienes somos</a></li>
+                        <li><a class="contact__item" href="#">Política de privacidad</a></li>
+                        <li><a class="contact__item" href="#">Programa de fidelidad</a></li>
+                        <li><a class="contact__item" href="#">Nuestras Tiendas</a></li>
+                        <li><a class="contact__item" href="#">Quiero ser franquiciado</a></li>
+                        <li><a class="contact__item" href="#">Anúncie aquí</a></li>
+                    </ul>
+                </div>
 
+                <form class="contact__form" action="">
+                    <label class="contact__tittle" for="name">Hable con nosotros</label>
+                    <input class="contact__input" type="text" placeholder="Nombre">
+                    <textarea class="contact__input contact__input--area" name="message"
+                        placeholder="Escribe tu mensaje" id="message"></textarea>
+                    <button class="contact__btn--form" type="submit">Enviar mensaje</button>
+                </form>
 
             </div>
-            <p class="desarrollado"></p>
+        </section>
 
-
-
+        <section class="copyright">
+            <p class="copyright__text">Challenge ONE | Front End - Geek E-commerce Oracle</p>
         </section>
 
     </div>
