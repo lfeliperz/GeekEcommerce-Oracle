@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 64px;
+    gap: 0px;
     position: relative;
     width: 1440px;
     height: 2111px;
@@ -31,9 +31,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px 0px;
-    gap: 611px;
-    width: 1136px;
-    height: 115px;
+    gap: 550px;
+    width: 1380px;
+    height: 10px;
     background: #FFFFFF;
     flex: none;
     order: 0;
@@ -121,4 +121,78 @@
 .header__btn--login:hover {
     background-color: var(--color-blue);
     color: var(--color-white);
+}
+
+section.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    gap: 16px;
+    width: 1380px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(images/banner-image.png);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.banner__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 170px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner__title {
+    width: 751px;
+    height: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.banner__p {
+    width: 751px;
+    height: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.banner__btn--offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    color: #F5F5F5;
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
