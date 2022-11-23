@@ -227,7 +227,7 @@ section.starwars {
     flex: none;
     order: 0;
     flex-grow: 0;
-   
+
 }
 
 .products__title {
@@ -266,7 +266,7 @@ section.starwars {
     position: absolute;
     margin-left: 5px;
     margin-top: 2px;
-    
+
 }
 
 .products_box {
@@ -282,4 +282,50 @@ section.starwars {
     flex-grow: 0;
 }
 
-li {list-style:none;}
+li {
+    list-style: none;
+}
+
+.card__name {
+    width: 176px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card__price {
+    width: 176px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card__view {
+    width: 100px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
